@@ -11,5 +11,7 @@ There are thoughts I don't want to lose, so I'm putting them here. Writing them 
 
 These thoughts might not be mature, concrete, or concise. Hopefully they'll still be useful to someone passing by.
 
+---
+
 The site is from a static website project that I wrote two years ago, and I revamped it and upgraded it with more functionalities. Good to see you back!
 
