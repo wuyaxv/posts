@@ -2,7 +2,7 @@
 title: "I'm starting a blog"
 date: 2026-05-16
 tag: "life"
-excertp: "Hello. I'm starting a blog, a serious one."
+excerpt: "Hello. I'm starting a blog, a serious one."
 showToc: False
 ---
 
