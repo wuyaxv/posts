@@ -2,14 +2,14 @@
 title: "I'm starting a blog"
 date: 2026-05-16
 tag: "life"
-excerpt: "I've decided to start a blog"
+excerpt: "I put something here."
 showToc: False
 ---
 I'm posting something here.
 
-There are thoughts I don't want to lose, so I'm putting them here. Writing them in public feels a little uncomfortable, but publishing them forces me to take ownership of them.
+This is a place where I keep some of my thoughts, and putting them in public gives them a bit of weight.
 
-These thoughts might not be mature, concrete, or concise. Hopefully they'll still be useful to someone passing by.
+These thoughts might not be polished, final, or tightly edited. But hopefully they'll be useful to someone passing by.
 
 ---
 
