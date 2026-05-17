@@ -7,9 +7,9 @@ showToc: False
 ---
 I'm posting something here.
 
-This is a place where I keep some of my thoughts, and putting them in public gives them a bit of weight.
+There are thoughts I don't want to lose, so I'm putting them here. Writing them in public feels a little uncomfortable, but publishing them forces me to take ownership of them.
 
-These thoughts might not be polished, final, or tightly edited. But hopefully they'll be useful to someone passing by.
+These thoughts might not be polished, mature, or concise. But hopefully they'll be useful to someone passing by.
 
 ---
 
