@@ -13,5 +13,5 @@ These thoughts might not be polished, mature, or concise. But hopefully, they'll
 
 ---
 
-The site is from a static website project that I wrote two years ago. I've recently revamped it, upgraded it with more functionalities, and fine-tuned the colors. It's great to see this old project put to use again.
+The site is from a static website project that I wrote two years ago. I've recently revamped it, upgraded it with more functionalities, and fine-tuned the colors. 
 
