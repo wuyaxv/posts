@@ -7,11 +7,11 @@ showToc: False
 ---
 I'm posting something here.
 
-There are thoughts I don't want to lose, so I'm putting them here. Writing them in public feels a little uncomfortable, but publishing them forces me to take ownership of them.
+This is the beginning of a new space for my thoughts and ideas. I'm putting them out in public because I really don't feel like letting 'em slip away.
 
-These thoughts might not be polished, mature, or concise. But hopefully they'll be useful to someone passing by.
+These thoughts might not be polished, mature, or concise. But hopefully, they'll be useful to someone passing by.
 
 ---
 
-The site is from a static website project that I wrote two years ago, and I revamped it and upgraded it with more functionalities. Good to see you back!
+The site is from a static website project that I wrote two years ago. I've recently revamped it, upgraded it with more functionalities, and fine-tuned the colors. It's great to see this old project put to use again.
 
