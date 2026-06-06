@@ -1,0 +1,29 @@
+% =============================================================================
+% Blog-level references — shared across all posts
+%
+% Usage: cite with [@key], @key, or [-@key] in your MDX/MD posts
+%
+% Priority: Per-post bib (src/content/blog/{slug}/references.bib) > 
+%           Blog-level bib (this file) > 
+%           Global bib (src/data/references.bib)
+%
+% A citekey defined in a per-post bib overrides the same key here.
+%
+% —————————————————————————————————————————————————————————————————————————————
+%  SUBMODULE COMMIT WORKFLOW (manual)
+%
+%  src/content/blog is a git submodule pointing to wuyaxv/posts.git.
+%  After editing this file, commit it to the submodule:
+%
+%    cd src/content/blog
+%    git add references.bib
+%    git commit -m "add/update blog-level references template"
+%    git push
+%
+%  Then update the parent repo's submodule pointer:
+%
+%    cd /path/to/site
+%    git add src/content/blog
+%    git commit -m "update blog submodule"
+%    git push
+% =============================================================================
