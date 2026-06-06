@@ -1,0 +1,83 @@
+@InProceedings{pmlr-v270-kim25c,
+  title = 	 {OpenVLA: An Open-Source Vision-Language-Action Model},
+  author =       {Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and Xiao, Ted and Balakrishna, Ashwin and Nair, Suraj and Rafailov, Rafael and Foster, Ethan P and Sanketi, Pannag R and Vuong, Quan and Kollar, Thomas and Burchfiel, Benjamin and Tedrake, Russ and Sadigh, Dorsa and Levine, Sergey and Liang, Percy and Finn, Chelsea},
+  booktitle = 	 {Proceedings of The 8th Conference on Robot Learning},
+  pages = 	 {2679--2713},
+  year = 	 {2025},
+  editor = 	 {Agrawal, Pulkit and Kroemer, Oliver and Burgard, Wolfram},
+  volume = 	 {270},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--09 Nov},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf},
+  url = 	 {https://proceedings.mlr.press/v270/kim25c.html},
+  abstract = 	 {Large policies pretrained on a combination of Internet-scale vision-language data and diverse robot demonstrations have the potential to change how we teach robots new skills: rather than training new behaviors from scratch, we can fine-tune such vision-language-action (VLA) models to obtain robust, generalizable policies for visuomotor control. Yet, widespread adoption of VLAs for robotics has been challenging as 1) existing VLAs are largely closed and inaccessible to the public, and 2) prior work fails to explore methods for efficiently fine-tuning VLAs for new tasks, a key component for adoption. Addressing these challenges, we introduce OpenVLA, a 7B-parameter open-source VLA trained on a diverse collection of 970k real-world robot demonstrations. OpenVLA builds on a Llama 2 language model combined with a visual encoder that fuses pretrained features from DINOv2 and SigLIP. As a product of the added data diversity and new model components, OpenVLA demonstrates strong results for generalist manipulation, outperforming closed models such as RT-2-X (55B) by 16.5% in absolute task success rate across 29 tasks and multiple robot embodiments, with 7x fewer parameters. We further show that we can effectively fine-tune OpenVLA for new settings, with especially strong generalization results in multi-task environments involving multiple objects and strong language grounding abilities, where we outperform expressive from-scratch imitation learning methods such as Diffusion Policy by 20.4%. We also explore compute efficiency; as a separate contribution, we show that OpenVLA can be fine-tuned on consumer GPUs via modern low-rank adaptation methods and served efficiently via quantization without a hit to downstream success rate. Finally, we release model checkpoints, fine-tuning notebooks, and our PyTorch codebase with built-in support for training VLAs at scale on Open X-Embodiment datasets.}
+}
+
+
+@InProceedings{pmlr-v229-zitkovich23a,
+  title = 	 {RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control},
+  author =       {Zitkovich, Brianna and Yu, Tianhe and Xu, Sichun and Xu, Peng and Xiao, Ted and Xia, Fei and Wu, Jialin and Wohlhart, Paul and Welker, Stefan and Wahid, Ayzaan and Vuong, Quan and Vanhoucke, Vincent and Tran, Huong and Soricut, Radu and Singh, Anikait and Singh, Jaspiar and Sermanet, Pierre and Sanketi, Pannag R. and Salazar, Grecia and Ryoo, Michael S. and Reymann, Krista and Rao, Kanishka and Pertsch, Karl and Mordatch, Igor and Michalewski, Henryk and Lu, Yao and Levine, Sergey and Lee, Lisa and Lee, Tsang-Wei Edward and Leal, Isabel and Kuang, Yuheng and Kalashnikov, Dmitry and Julian, Ryan and Joshi, Nikhil J. and Irpan, Alex and Ichter, Brian and Hsu, Jasmine and Herzog, Alexander and Hausman, Karol and Gopalakrishnan, Keerthana and Fu, Chuyuan and Florence, Pete and Finn, Chelsea and Dubey, Kumar Avinava and Driess, Danny and Ding, Tianli and Choromanski, Krzysztof Marcin and Chen, Xi and Chebotar, Yevgen and Carbajal, Justice and Brown, Noah and Brohan, Anthony and Arenas, Montserrat Gonzalez and Han, Kehang},
+  booktitle = 	 {Proceedings of The 7th Conference on Robot Learning},
+  pages = 	 {2165--2183},
+  year = 	 {2023},
+  editor = 	 {Tan, Jie and Toussaint, Marc and Darvish, Kourosh},
+  volume = 	 {229},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--09 Nov},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v229/zitkovich23a.html},
+  abstract = 	 {We study how vision-language models trained on Internet-scale data can be incorporated directly into end-to-end robotic control to boost generalization and enable emergent semantic reasoning. Our goal is to enable a single end-to-end trained model to both learn to map robot observations to actions and enjoy the benefits of large-scale pretraining on language and vision-language data from the web. To this end, we propose to co-fine-tune state-of-the-art vision-language models on both robotic trajectory data and Internet-scale vision-language tasks, such as visual question answering. In contrast to other approaches, we propose a simple, general recipe to achieve this goal: in order to fit both natural language responses and robotic actions into the same format, we express the actions as text tokens and incorporate them directly into the training set of the model in the same way as natural language tokens. We refer to such category of models as vision-language-action models (VLA) and instantiate an example of such a model, which we call RT-2. Our extensive evaluation (6k evaluation trials) shows that our approach leads to performant robotic policies and enables RT-2 to obtain a range of emergent capabilities from Internet-scale training. This includes significantly improved generalization to novel objects, the ability to interpret commands not present in the robot training data (such as placing an object onto a particular number or icon), and the ability to perform rudimentary reasoning in response to user commands (such as picking up the smallest or largest object, or the one closest to another object). We further show that incorporating chain of thought reasoning allows RT-2 to perform multi-stage semantic reasoning, for example figuring out which object to pick up for use as an improvised hammer (a rock), or which type of drink is best suited for someone who is tired (an energy drink).}
+}
+
+@misc{kim2025finetuningvisionlanguageactionmodelsoptimizing,
+      title={Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success}, 
+      author={Moo Jin Kim and Chelsea Finn and Percy Liang},
+      year={2025},
+      eprint={2502.19645},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2502.19645}, 
+}
+
+@misc{karamcheti2024prismaticvlmsinvestigatingdesign,
+      title={Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models}, 
+      author={Siddharth Karamcheti and Suraj Nair and Ashwin Balakrishna and Percy Liang and Thomas Kollar and Dorsa Sadigh},
+      year={2024},
+      eprint={2402.07865},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2402.07865}, 
+}
+
+@misc{tschannen2025siglip2multilingualvisionlanguage,
+      title={SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features}, 
+      author={Michael Tschannen and Alexey Gritsenko and Xiao Wang and Muhammad Ferjad Naeem and Ibrahim Alabdulmohsin and Nikhil Parthasarathy and Talfan Evans and Lucas Beyer and Ye Xia and Basil Mustafa and Olivier Hénaff and Jeremiah Harmsen and Andreas Steiner and Xiaohua Zhai},
+      year={2025},
+      eprint={2502.14786},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.14786}, 
+}
+
+@misc{oquab2024dinov2learningrobustvisual,
+      title={DINOv2: Learning Robust Visual Features without Supervision}, 
+      author={Maxime Oquab and Timothée Darcet and Théo Moutakanni and Huy Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mahmoud Assran and Nicolas Ballas and Wojciech Galuba and Russell Howes and Po-Yao Huang and Shang-Wen Li and Ishan Misra and Michael Rabbat and Vasu Sharma and Gabriel Synnaeve and Hu Xu and Hervé Jegou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski},
+      year={2024},
+      eprint={2304.07193},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2304.07193}, 
+}
+
+@misc{radford2021learningtransferablevisualmodels,
+      title={Learning Transferable Visual Models From Natural Language Supervision}, 
+      author={Alec Radford and Jong Wook Kim and Chris Hallacy and Aditya Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever},
+      year={2021},
+      eprint={2103.00020},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2103.00020}, 
+}
+
